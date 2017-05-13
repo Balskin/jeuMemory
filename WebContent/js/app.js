@@ -22,7 +22,7 @@ for (var i = 1; i <= 4; i++) {
 		var cellImage = document.createElement("div");
 		cellImage.className = "image";
 
-		$().css("background-position", tableauImage[11]);
+		// $().css("background-position", tableauImage[11]);
 		// $(cellImage).css( "background-position", tableauImage[random]);
 		
 		cell.appendChild(cellImage);
